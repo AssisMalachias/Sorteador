@@ -1,0 +1,71 @@
+@import "reset.less";
+@import "mapas.less";
+
+@fontePrincipal: Roboto, sans-serif;
+@fonteDoTitulo: Lobster, curive;
+
+main {
+   max-width:960px;
+   width:100%;
+   margin:0 auto;
+   font-size:2em;
+   text-align: center; 
+}
+.tituloprimeiro {
+    font-family:@fonteDoTitulo;
+    color:#colors[corDeTexto];
+    font-weight:200;
+    font-size:3em;
+}
+label {
+    font-family:@fontePrincipal;
+    font-size:25px;
+    font-weight: 500;
+    font-style: italic;
+    color:#colors[corDeTexto]
+}
+input {
+    display:block;
+    margin:16px auto 0;
+    max-width:164px;
+    font-size:2em;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid #colors[corDeTexto];
+    text-align: center;
+    color:#colors[corDeTexto];
+    border-bottom: 6px solid #colors[corDeTexto];
+    outline:none;
+    font-style: italic;
+}
+button 
+{
+    width:250px;
+    padding:15px;
+    margin:20px;
+    border-radius:7px;
+    font-family:@fonteDoTitulo;
+    font-size:27px;
+    border:none;
+    background-color:#colors[corDoBotao];
+    cursor: pointer;
+}
+.numero-sorteado
+{
+    width:100%;
+    padding:20px;
+    margin:40px auto 0;
+    border:2px dashed #colors[corDeTexto];
+}
+.resposta 
+{
+    font-size:38px;
+    font-family:@fonteDoTitulo;
+    color:#colors[corDeTexto];
+    font-weight:100;
+}
+span{
+    font-family:@fonteDoTitulo;
+    color:#colors[corDeTexto];
+    font-weight:100;
+}
